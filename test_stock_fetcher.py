@@ -246,3 +246,6 @@ class TestHKSpot:
         with patch("stock_fetcher.ak.stock_hk_spot_em", return_value=mock_df):
             info = fetcher.get_hk_spot_single("700")
         assert info["名称"] == "腾讯控股"
+
+
+# Tag for test2

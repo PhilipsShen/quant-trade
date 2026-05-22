@@ -298,3 +298,5 @@ if __name__ == "__main__":
     print(f"  信立泰: {len(df)} 条, 最新收盘 {df['收盘'].iloc[-1]}")
 
     print("\n✅ 所有测试通过！")
+
+    # Tag for test2
